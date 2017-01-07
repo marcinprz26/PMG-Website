@@ -1,2 +1,2 @@
 # PMG-Website
-Repository of PMG science club website
+Repository of Project Management Group science club website
