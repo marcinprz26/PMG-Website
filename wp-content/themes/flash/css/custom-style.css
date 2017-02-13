@@ -1,0 +1,365 @@
+body {
+    font-family: 'Noto Serif' !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+}
+.site-content {
+    padding-top: 60px;
+}
+.caption-title {
+    letter-spacing: 1px;
+}
+.siteorigin-panels-stretch {
+    margin-top: 60px;
+}
+header, .header-bottom {
+    height: 120px;
+}
+header.small, .header-bottom.small {
+    height: 70px;
+}
+.header-bottom {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+#masthead {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+}
+.main-navigation {
+    padding: 25px 0px;
+}
+.search-large {
+    padding: 45px 0px 45px 40px !important;
+}
+header, .header-bottom {
+    transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+}
+.main-navigation, .search-wrap, .search-large {
+    transition: 1s all linear;
+    -moz-transition: 1s all linear;
+    -webkit-transition: 1s all linear;
+    -o-transition: 1s all linear;
+}
+/* Top and Bottom borders go out */
+ul#primary-menu a:before, ul#primary-menu a:after {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #ccc;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+ul#primary-menu a:before {
+    top: -10px;
+    transform: translateY(30px);
+}
+
+ul#primary-menu a:after {
+    bottom: -10px;
+    transform: translateY(-30px);
+}
+
+ul#primary-menu a:hover:before, ul#primary-menu a:hover:after {
+    opacity: 1;
+    transform: translateY(0px);
+}
+/**Logo and title**/
+.title-container {
+    display: inline;
+}
+.logo img{
+    margin-top: 0px;
+    transition: all 2s;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+}
+.logo.logo-move img {
+    margin-top: -140px;
+    transition: all 2s;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+}
+.logo .logo-image {
+    padding: 10px 0px;
+}
+.website-name {
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: -10%;
+    display: inline;
+    color: #30afb8;
+    opacity: 1;
+    transition: all 2s;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+}
+.website-name.website-move {
+    top: -42px;
+    transition: top 2s;
+    -moz-transition: top 2s;
+    -webkit-transition: top 2s;
+    -o-transition: top 2s;
+}
+.website-name a {
+   color: #4c5867;
+}
+.website-name a:hover, .website-name a:active {
+    color: #30afb8;
+}
+/*****Slider*****/
+#main-banner {
+    /*margin-bottom: 55px !important;*/
+}
+.slider-content {
+    left: 0% !important;
+}
+.slider-arrow {
+    display: none;
+}
+/****About****/
+#about {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+#about .about-cell {
+    padding-top: 60px;
+    /*margin-bottom: -30px !important;*/
+}
+.mission, .passion, .people {
+    border: 1px solid #4c5867;
+    border-radius: 15px;
+    padding: 10px;
+}
+.mission {
+    height: 260px;
+    overflow: hidden;
+    box-shadow: -5px 5px 5px 5px black;
+}
+.passion {
+    box-shadow: 0px 5px 5px 5px black;
+}
+.people {
+    box-shadow: 5px 5px 5px 5px black
+}
+/***Facebook banner***/
+.fb-banner {
+    height: 250px;
+}
+.banner-wrapper {
+    margin: auto;
+    width: 40%;
+    display: table;
+    height: 250px;
+}
+.banner-wrapper .banner-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-wrapper .banner-inner {
+    margin: auto;
+    text-align: center;
+}
+.banner-wrapper .section-title {
+    color: #fff;
+    font-size: 32px;
+    position: relative;
+    display: inline;
+    top: 8px;
+    margin-right: 7px;
+}
+/****Team****/
+.team-banner {
+    margin-top: 25px;
+}
+/***Styles to team button***/
+/*.meet-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+.meet-btn a {
+    border: 1px solid #4c5867;
+    border-radius: 50px;
+    color: #313b48;
+    font-size: 22px;
+    padding: 10px 50px;
+    position: relative;
+    margin-left: 0px;
+    width: 300px;
+    margin-top: 0px;
+}
+.meet-btn a:hover, .meet-btn a:active {
+    background-color: #30afb8;
+    border-color: #30afb8;
+    color: #fff;
+}*/
+#project {
+    margin-top: -60px;
+}
+#project .panel-row-style {
+    background-color: #e9ebee !important;
+}
+#pmsession {
+    margin-top: -60px;
+}
+#contact {
+    padding: 0px 159.6px;
+    background-color: #e9ebee;
+    margin-left: -159.6px !important;
+    margin-right: -159.4px !important;
+    border-left: 0px;
+    border-right: 0px;
+}
+/**Contact form**/
+.custom-contact-form input:hover, .custom-contact-form textarea:hover,
+.custom-contact-form input:focus, .custom-contact-form textarea:focus {
+    border: 2px solid #30afb8 !important;
+/*    background-color: #30afb8 !important;
+    color: #000 !important;*/
+}
+.custom-contact-form input, .custom-contact-form textarea {
+    border-radius: 5px !important;
+    border: 2px solid #ccc !important;
+}
+.custom-contact-form .forms-field-label{
+    display: none !important;
+}
+.form-name, .form-email, .form-theme {
+    display: inline-block;
+    width: 30% !important;
+}
+.form-email, .form-theme {
+    margin-left: 5% !important;
+}
+.form-name input, .form-email input, .form-theme input {
+    max-width: 100% !important;
+}
+.form-submit {
+    float: right !important;
+    margin-right: 1% !important;
+    background-color: rgba(48, 175, 184, 0.7) !important;
+    border-radius: 5px !important;
+    border: 2px solid rgba(48, 175, 184, 0.7) !important;
+    color: #fff !important;
+}
+.form-submit:hover, .form-submit:active {
+    background-color: rgba(48, 175, 184, 1.0) !important;
+    border: 2px solid #30afb8 !important;
+}
+/***Footer***/
+#top-footer {
+    padding: 90px 0px 0px !important;
+}
+/**Section 1**/
+#sow-editor-3 .siteorigin-widget-tinymce {
+    position: relative;
+    top: -55px;
+    left: -40px;
+}
+#logo-pmg img {
+    width: 50%;
+}
+#sow-editor-3 .siteorigin-widget-tinymce p:last-child  {
+    position: relative;
+    left: -50px;
+}
+#logo-iz img {
+    width: 45%;
+    display: inline-block;
+}
+#logo-pwr img {
+    width: 40%;
+    display: inline-block;
+}
+#sow-editor-3 .siteorigin-widget-tinymce a[data]:hover:before {
+  content: attr(data);
+  padding: 4px 8px;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  white-space: nowrap;
+  z-index: 20;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 4px #222;
+  -webkit-box-shadow: 0px 0px 4px #222;
+  box-shadow: 0px 0px 4px #222;
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+}
+/***Section 4***/
+#sow-editor-5 {
+    width: 360px;
+    position: relative;
+    min-height: 240px;
+}
+#sow-editor-5 .fb-page {
+    position: absolute;
+    top: 25%;
+}
+#sow-editor-5 .fb-page-small {
+    display: none;
+}
+/***Portfolio single page***/
+.portfolio.type-portfolio {
+    padding-bottom: 30px;
+}
+.portfolio header {
+    display: none;
+}
+/***OKEJ ZP***/
+#okej-sign {
+    font-family: 'Dr Sugiyama', cursive;
+    font-size: 33px;
+}
+/***Szkolenia certyfikowane***/
+#post-82 .entry-thumbnail img {
+    display:none;
+}
+/***Szkolenia dla członków koła***/
+#post-80 .entry-thumbnail img {
+    display:none;
+}
+@media (min-width: 1496px) {
+    .header-bottom .tg-container {
+        width: 1500px;
+    }
+    #contact {
+        margin-left: -361.6px !important;
+        margin-right: -360.4px !important;
+    }
+    #contact .panel-row-style {
+        padding: 60px 0px 60px 0px;
+        margin: 0 auto;
+        width: 70%;
+    }
+}
+@media (max-width: 1280px) {
+    #sow-editor-5 .fb-page-small {
+        position: absolute;
+        top: 25%;
+        display: inline !important;
+    }
+    #sow-editor-5 .fb-page {
+        display: none;
+    }
+}
